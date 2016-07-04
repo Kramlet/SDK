@@ -21,7 +21,7 @@
    After this step you should always call the main module object and use its dependencies for retrieve or operate with the modules of the Artik SDK.   
    
    * Instantiate the module  
-   Then from the main module we can call the module PWM constructor.
+   Then from the main module we can call the module PWM constructor.  
    **_ex\._**:  
 
 ```javascript
