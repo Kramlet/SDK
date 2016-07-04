@@ -18,11 +18,11 @@
 	}
 		...
 ```
- __NB__:  
-  \- After this step we should always call the main module object and use its dependencies for retriev or operates with the modules of the Artik SDK.  
-  \- Also be carefull due to the system of event emitter we need to construct the object from the javascript layer not from the node.js addon C++.  
+  __NB__:  
+       \- After this step we should always call the main module object and use its dependencies for retriev or operates with the modules of the Artik SDK.  
+       \- Also be carefull due to the system of event emitter we need to construct the object from the javascript layer not from the node.js addon C++.  
 
-  * Instantiate the module  
+* Instantiate the module  
    From the main module object we can call the module Bluetooth constructor.  
    **_ex\._**:  
 
