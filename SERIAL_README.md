@@ -196,6 +196,20 @@
 		...
 ```
 
+
+   * Function : 'on'  
+   'on' permits to store a callback associates to an event.  
+   **_ex\._**:  
+
+```javascript
+	serial.on('read', function(message) {
+        console.log("received: " + message);
+});
+
+		...
+```
+
+
 ## 3. Full example
 
    * See [the test file](/test/serial-test.js)
