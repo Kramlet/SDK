@@ -2,9 +2,9 @@
    > This README permits to introduce each API function of the module Media.  
 
 ## 1. Initialize & clean an usage with the module Media
-   * Include the headers
-   > First of all, we should include the main module of the Artik SDK and its depedencies wich depend on the Artik board version.    
-   > **_ex\._**:  
+   * Include the headers  
+   First of all, we should include the main module of the Artik SDK and its depedencies wich depend on the Artik board version.    
+   **_ex\._**:  
 
 ```javascript
 	const artik = require('../lib/artik-sdk'); // Instantiate the main module object for accessing to the Artik SDK.  
@@ -20,9 +20,9 @@
  __NB__:  
    After this step you should always call the main module object and use its dependencies for retrieve or operate with the modules of the Artik SDK.   
    
-   * Instantiate the module
-   > Then from the main module we can call the module PWM constructor.
-   > **_ex\._**:  
+   * Instantiate the module  
+   Then from the main module we can call the module PWM constructor.
+   **_ex\._**:  
 
 ```javascript
 	var media = artik.media();
@@ -30,9 +30,9 @@
 ```
 
 ## 2. Process with the Media module
-   *  Function : 'play_sound_file'
-   > 'play_sound_file' permits to play a sound file and launch a callback at the end of its process.  
-   > **_ex\._**:  
+   *  Function : 'play_sound_file'  
+   'play_sound_file' permits to play a sound file and launch a callback at the end of its process.  
+   **_ex\._**:  
 
 ```javascript
 	var sound_file = '/usr/share/sounds/alsa/Front_Center.wav'; // store the path of the sound file.  
