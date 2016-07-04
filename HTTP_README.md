@@ -2,9 +2,9 @@
    > This README permits to introduce each API functions of the module HTTP.  
 
 ## 1. Initialize & clean an usage with the module HTTP
-   * Include the headers
-   > First of all, we should include the main module of the Artik SDK and its depedencies wich depends on the Artik board version.  
-   > **_ex\._**:  
+   * Include the headers  
+   First of all, we should include the main module of the Artik SDK and its depedencies wich depends on the Artik board version.  
+   **_ex\._**:  
 
 ```javascript
 	const artik = require('../lib/artik-sdk'); // Instantiate the main module object for accessing to the Artik SDK.
@@ -20,9 +20,9 @@
  __NB__:  
    After this step you should always call the main module object and use its dependencies for retrieve or operate with the modules of the Artik SDK.    
    
-   * Instantiate the module
-   > From the main module we can call the module HTTP constructor.    
-   > **_ex\._**:  
+   * Instantiate the module  
+   From the main module we can call the module HTTP constructor.    
+   **_ex\._**:  
 
 ```javascript
 	var http = artik.http();
@@ -30,9 +30,9 @@
 ```
 
 ## 2. Process with the module HTTP
-   * Function : 'get'
-   > 'get' permits to process a 'get' command base on the HTTP protocol.  
-   > **_ex\._**:  
+   * Function : 'get'  
+   'get' permits to process a 'get' command base on the HTTP protocol.  
+   **_ex\._**:  
 
 ```javascript
 	var headers = [
@@ -46,13 +46,13 @@
 		...
 ```
  __NB__:  
-   - First parameter is the URL link;    
-   - Second is the HTTP header object;    
-   - The last is the callback use for retrieve the data.  
+   \- First parameter is the URL link;    
+   \- Second is the HTTP header object;    
+   \- The last is the callback use for retrieve the data.  
  
-   * Function : 'post'
-   > 'post' permits to process a 'post' command base on the HTTP protocol.  
-   > **_ex\._**:  
+   * Function : 'post'  
+   'post' permits to process a 'post' command base on the HTTP protocol.  
+   **_ex\._**:  
 
 ```javascript
 	var headers = [
@@ -66,14 +66,14 @@
 		...
 ```
  __NB__:  
-   - First parameter is the URL link;  
-   - Second is the HTTP header object;    
-   - Third parameter is the request container;  
-   - The last is the callback use for retrieve the data.  
+   \- First parameter is the URL link;  
+   \- Second is the HTTP header object;    
+   \- Third parameter is the request container;  
+   \- The last is the callback use for retrieve the data.  
  
-   * Function : 'put'
-   > 'put' permits to process a 'put' command base on the HTTP protocol.  
-   > **_ex\._**:  
+   * Function : 'put'  
+   'put' permits to process a 'put' command base on the HTTP protocol.  
+   **_ex\._**:  
 
 ```javascript
 	var headers = [
@@ -88,14 +88,14 @@
 		...
 ```
  __NB__:  
-   - First parameter is the URL link;    
-   - Second is the HTTP header object;    
-   - Third parameter is the request container;    
-   - The last is the callback use for retrieve the data.  
+   \- First parameter is the URL link;    
+   \- Second is the HTTP header object;    
+   \- Third parameter is the request container;    
+   \- The last is the callback use for retrieve the data.  
  
-   * Function : 'del'
-   > 'del' permits to process a 'delete' command base on the HTTP protocol.  
-   > **_ex\._**:  
+   * Function : 'del'  
+   'del' permits to process a 'delete' command base on the HTTP protocol.  
+   **_ex\._**:  
 
 ```javascript
 	var headers = [
@@ -109,9 +109,9 @@
 		...
 ```
  __NB__:  
-   - First parameter is the URL link;  
-   - The second is the HTTP header object.  
-   - The last is the callback use for retrieve the data.  
+   \- First parameter is the URL link;  
+   \- The second is the HTTP header object.  
+   \- The last is the callback use for retrieve the data.  
  
 ## 3. Full example
 
